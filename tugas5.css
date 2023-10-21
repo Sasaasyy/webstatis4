@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-linear-gradient(rgb(121, 97, 97), rgb(102, 53, 53));
+  font-family: monospace;
+}
+
+#judul {
+  background: linear-gradient(to left, rgb(44, 3, 3), rgb(121, 68, 68));
+  color: rgb(221, 206, 206);
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 3px rgb(169, 47, 47);
+  margin-bottom: 50px;
+}
+
+.media img {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  height: 240px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.content .opening p {
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.content img {
+  width: 360px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content div h3,
+.content div p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#form {
+  padding: 20px;
+  background: repeating-linear-gradient(rgb(44, 3, 3), rgb(121, 68, 68));
+  color: rgb(221, 206, 206);
+  border: 3px solid rgb(44, 3, 3);
+}
